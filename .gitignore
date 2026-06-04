@@ -1,0 +1,72 @@
+# KiCad backup files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.kicad_pro-bak
+
+# KiCad autosave / rescue / temporary files
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.tmp
+*.temp
+
+# KiCad cache / generated netlists
+*.net
+*.xml
+*.cmp
+
+# KiCad fabrication outputs
+gerbers/
+Gerbers/
+fabrication/
+fab/
+plot/
+plots/
+production/
+jlcpcb/
+JLCPCB/
+bom/
+BOM/
+ibom/
+*.gbr
+*.drl
+*.pos
+*.rpt
+*.zip
+
+# KiCad 3D / intermediate export files
+*.step
+*.stp
+*.wrl
+*.svg
+*.pdf
+*.dxf
+
+# KiCad local settings
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# KiCad lock files
+*.lck
+~*.lck
+~*.kicad_pro.lck
+
+# Logs
+*.log
+
+# Local placement/helper script config, if not needed
+place_footprints.ini
