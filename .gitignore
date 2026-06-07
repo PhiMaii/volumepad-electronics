@@ -4,6 +4,7 @@
 *.kicad_sch-bak
 *.kicad_prl
 *.kicad_pro-bak
+pcb/*-backups/
 
 # KiCad autosave / rescue / temporary files
 *-save.pro
@@ -19,18 +20,19 @@ _autosave-*
 *.cmp
 
 # KiCad fabrication outputs
-gerbers/
-Gerbers/
-fabrication/
-fab/
-plot/
-plots/
-production/
-jlcpcb/
-JLCPCB/
-bom/
-BOM/
-ibom/
+/fabrication/*
+!/fabrication/.gitkeep
+/pcb/gerbers/
+/pcb/Gerbers/
+/pcb/fab/
+/pcb/plot/
+/pcb/plots/
+/pcb/production/
+/pcb/jlcpcb/
+/pcb/JLCPCB/
+/pcb/bom/
+/pcb/BOM/
+/pcb/ibom/
 *.gbr
 *.drl
 *.pos
@@ -69,4 +71,4 @@ Thumbs.db
 *.log
 
 # Local placement/helper script config, if not needed
-place_footprints.ini
+/pcb/place_footprints.ini
