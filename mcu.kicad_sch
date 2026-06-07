@@ -6105,6 +6105,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 52.07 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "940e0949-e2bb-4fdc-b3f7-72e7a735b656")
 		)
@@ -6770,6 +6781,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 74.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99ec9fba-7955-4b57-a820-a9c96518b379")
 		)
@@ -6843,6 +6865,17 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+			(at 102.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15742"
 			(at 102.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7434,6 +7467,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 86.36 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4406ec14-2fb6-45db-8633-f62b3e1e593b")
 		)
@@ -7751,6 +7795,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 63.5 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f557508-bf53-4482-a476-732fd153f092")
 		)
@@ -7989,6 +8044,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 20.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c357562-9a00-4999-9ce9-9a9989a08dff")
 		)
@@ -8151,6 +8217,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
 			(at 128.27 29.21 0)
 			(hide yes)
 			(show_name no)

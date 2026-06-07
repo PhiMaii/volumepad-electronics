@@ -730,6 +730,18 @@
           "label": "Field5",
           "name": "Field5",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -780,7 +792,7 @@
         "uuid": "218b9003-d196-4882-9b1c-4300d6d4f415"
       }
     ],
-    "used_designators": "MX501-503,LED801-803",
+    "used_designators": "C802-813,MX501-503,LED801-803",
     "variants": []
   },
   "sheets": [

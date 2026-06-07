@@ -2306,6 +2306,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C70082"
+			(at 48.26 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34f5960f-7844-45b1-a218-1155eb2869ac")
 		)
@@ -2327,7 +2338,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2626,6 +2637,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2445454"
+			(at 36.83 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0920f762-0db7-459d-9471-e0f835136500")
 		)
@@ -2858,6 +2880,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 67.31 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3170,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3214,7 +3247,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3508,6 +3541,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42405541"
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbd96cfc-f070-4d5a-b76b-f7fb5bfc6469")
 		)
@@ -3702,7 +3746,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3860,7 +3904,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4068,6 +4112,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)

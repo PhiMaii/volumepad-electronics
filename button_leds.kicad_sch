@@ -5176,6 +5176,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 83.82 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04b4c45d-18f6-47d5-9481-13f40b9354da")
+		(property "Reference" "C802"
+			(at 86.614 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 86.614 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 84.7852 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 83.82 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d0d6e7e-d5e1-493a-85f8-d32f2743722d")
+		)
+		(pin "2"
+			(uuid "8c894635-4dd1-4e19-860f-f3529f30dc26")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 232.41 140.97 0)
 		(unit 1)
@@ -5597,88 +5689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 71.12 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e13bd6e-5fbb-4082-8522-265254a5e682")
-		(property "Reference" "C805"
-			(at 68.326 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 68.326 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 70.1548 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0d05691-7f82-418d-a38f-84dee52fcdc9")
-		)
-		(pin "2"
-			(uuid "de5b2482-4617-40d9-92e0-9ca5a589d5c0")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 194.31 102.87 0)
 		(unit 1)
@@ -5760,6 +5770,98 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "D821")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2613744e-23f7-4cfe-b5b0-6ed194e73b8e")
+		(property "Reference" "C804"
+			(at 44.45 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 44.45 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 53.0352 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad15e34-dd10-41cc-9881-810a347704d8")
+		)
+		(pin "2"
+			(uuid "33e54eed-e787-47aa-a3cf-f2e2fe127524")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C804")
 					(unit 1)
 				)
 			)
@@ -6022,6 +6124,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 204.47 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b13054f-0443-4e87-a68b-d5526012da4e")
+		(property "Reference" "C812"
+			(at 196.85 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.85 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 205.4352 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 204.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4aa268b-1bfb-4684-9250-2938bb608265")
+		)
+		(pin "2"
+			(uuid "e70e6a9d-8809-4fef-9f3b-e7bff74cd019")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C812")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 99.06 140.97 0)
 		(unit 1)
@@ -6277,88 +6471,6 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "D817")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d9c01fe-af31-49af-b37b-112a04bc1df4")
-		(property "Reference" "C809"
-			(at 144.526 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 144.526 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.3548 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "131c4b7e-14b4-49ef-9c83-a5f8411af6c8")
-		)
-		(pin "2"
-			(uuid "e97e370c-e84e-4764-b1b8-03250313ebd8")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C809")
 					(unit 1)
 				)
 			)
@@ -6950,170 +7062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 223.52 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e5cf975-487c-40e6-8e0c-a8753ee67ba0")
-		(property "Reference" "C813"
-			(at 220.726 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 220.726 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 222.5548 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9689d5ab-e6b8-41c4-83e8-352371a7cc75")
-		)
-		(pin "2"
-			(uuid "0178dbf5-03a4-482e-8a1e-3404fbdd34a2")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C813")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f6ea9d5-76b0-4d55-af4a-c9189d434152")
-		(property "Reference" "C811"
-			(at 182.626 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 182.626 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 184.4548 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14616a8b-c41c-44cc-9854-935be8b15404")
-		)
-		(pin "2"
-			(uuid "be3ae927-948b-449a-b10f-129e3e3e966b")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C811")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 80.01 102.87 0)
 		(unit 1)
@@ -7453,7 +7401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 21.59 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7461,9 +7409,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "53386a4a-0846-458b-b2b7-65b9bda53ec1")
-		(property "Reference" "C802"
-			(at 86.614 20.32 0)
+		(uuid "5ad1d7f4-620d-45be-9ca7-3ee8eb12294e")
+		(property "Reference" "C806"
+			(at 82.55 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7474,7 +7422,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 86.614 22.86 0)
+			(at 82.55 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7485,7 +7433,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.7852 25.4 0)
+			(at 91.1352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 21.59 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7507,7 +7455,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 21.59 0)
+			(at 90.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7518,97 +7477,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ee492e7-f625-4dc8-a2e4-f78fd8c7f6c6")
+			(uuid "4527bcd0-e90c-45c5-8f2e-84ec3b1c5cb3")
 		)
 		(pin "2"
-			(uuid "374133ab-2f78-488a-b739-674f33750877")
+			(uuid "72b18bad-d9dc-4a3d-ab21-ed8eda076951")
 		)
 		(instances
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 204.47 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5bdd7b8c-3db5-4a92-b73f-1801ee229ea8")
-		(property "Reference" "C812"
-			(at 201.676 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 201.676 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.5048 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 204.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2840b41b-33ca-4501-a081-1c1366761a58")
-		)
-		(pin "2"
-			(uuid "cf755712-a0a2-4b20-969b-a7649d1d42dd")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C812")
+					(reference "C806")
 					(unit 1)
 				)
 			)
@@ -7696,6 +7573,190 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "D832")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6048ad78-8ee1-4462-841a-b50704512f23")
+		(property "Reference" "C805"
+			(at 63.5 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 63.5 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 72.0852 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 71.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f25af08-3d8f-4034-a2d0-786452cb5359")
+		)
+		(pin "2"
+			(uuid "7492f2ce-f44c-477d-94b4-f9e1f25023a6")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6113d3b5-2da5-4b10-abdc-a8a5fb11b88c")
+		(property "Reference" "C811"
+			(at 177.8 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.8 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 186.3852 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "772102ad-21ce-4ee9-964f-3ff1cae62cf2")
+		)
+		(pin "2"
+			(uuid "1d19ec66-ed0d-4855-a720-ff9426db7504")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C811")
 					(unit 1)
 				)
 			)
@@ -7948,88 +8009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e67fa89-c1f0-442e-a44c-8489c8edcf0c")
-		(property "Reference" "C808"
-			(at 125.476 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 125.476 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127.3048 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fc3cd72-f03d-4232-a430-99ec90e10bb3")
-		)
-		(pin "2"
-			(uuid "1b600ab0-8ebe-4499-b0d5-f5847084f074")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C808")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 80.01 140.97 0)
 		(unit 1)
@@ -8196,6 +8175,98 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 109.22 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "853ec7dd-d1d0-4ed5-9d74-f73c2a438e1a")
+		(property "Reference" "C807"
+			(at 101.6 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 101.6 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 110.1852 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e427a0b0-0b49-40fe-9286-3a0807b42bd0")
+		)
+		(pin "2"
+			(uuid "f21ef2ba-d63e-4a11-8074-6634c411fc10")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C807")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 147.32 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -8271,88 +8342,6 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "C829")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 166.37 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "880cabca-5107-4245-bce4-fbf3b7bd4d9d")
-		(property "Reference" "C810"
-			(at 163.576 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 163.576 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 165.4048 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 166.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5dbcc28b-4bc3-4f83-9662-5d5d7ba538b7")
-		)
-		(pin "2"
-			(uuid "3d0a910b-9bb5-4921-9c01-4eec5c1ee2e6")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C810")
 					(unit 1)
 				)
 			)
@@ -8440,87 +8429,6 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "D829")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88fc24c0-0abf-4ad1-8fda-42baec3b0ca7")
-		(property "Reference" "C803"
-			(at 120.904 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 120.904 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 119.0752 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5488a78-c01f-49d2-bff7-87aa262f6bfb")
-		)
-		(pin "2"
-			(uuid "a30772db-b3d1-4004-b73e-3c794fc2d15d")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -9033,6 +8941,98 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "C835")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9481d8f1-7e8d-4d08-91fc-6a7a5ad907da")
+		(property "Reference" "C803"
+			(at 120.904 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 120.904 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 119.0752 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4acf9fba-ce7c-400b-8eae-5c8494954a4d")
+		)
+		(pin "2"
+			(uuid "ab5aa129-96ab-43ac-b328-44113be0d821")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -9703,88 +9703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 52.07 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1651712-d289-47fc-a7de-93f80d55cc17")
-		(property "Reference" "C804"
-			(at 49.276 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 49.276 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.1048 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 52.07 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef1f518a-1025-4d05-83b2-93940d3e3535")
-		)
-		(pin "2"
-			(uuid "e49eded8-15f3-42c7-ae73-6e67d883e049")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C804")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 137.16 102.87 0)
 		(unit 1)
@@ -10041,6 +9959,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 223.52 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1711a24-c4d7-48fc-8141-d61532e56262")
+		(property "Reference" "C813"
+			(at 215.9 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.9 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 224.4852 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 223.52 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23083d58-fdbb-47fd-a0a7-6921df8012b5")
+		)
+		(pin "2"
+			(uuid "d5c75f44-2a82-408b-84e0-bd9f926e877a")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C813")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 194.31 140.97 0)
 		(unit 1)
@@ -10128,6 +10138,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 128.27 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d57dc6c9-2b59-46ac-8cc7-cf62f140747d")
+		(property "Reference" "C808"
+			(at 120.65 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 120.65 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.2352 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e59dac8-9eea-4aed-af28-469dab55440c")
+		)
+		(pin "2"
+			(uuid "575a41e8-ea65-43d5-aa89-123cbf332689")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C808")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 232.41 64.77 0)
 		(unit 1)
@@ -10209,88 +10311,6 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "D813")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 109.22 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7f90910-2074-4512-bd30-0a0bdd9af5a9")
-		(property "Reference" "C807"
-			(at 106.426 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 106.426 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 108.2548 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64d6266c-af19-488a-8358-140ce0f069eb")
-		)
-		(pin "2"
-			(uuid "1718051d-34c0-4542-9d1a-37366ad00883")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C807")
 					(unit 1)
 				)
 			)
@@ -10385,88 +10405,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed378c53-1832-4107-aac5-e8b0088b182a")
-		(property "Reference" "C806"
-			(at 87.376 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 87.376 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 89.2048 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "887a397c-43be-4551-9845-7c26d0a76a3a")
-		)
-		(pin "2"
-			(uuid "196b9b60-dae2-4f7e-97de-3b50c37d1441")
-		)
-		(instances
-			(project "volumepad-stm32-pcb"
-				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
-					(reference "C806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 71.12 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -10542,6 +10480,190 @@
 			(project "volumepad-stm32-pcb"
 				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
 					(reference "C815")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edfca9d1-9197-48e8-b3cb-1266b86b519d")
+		(property "Reference" "C810"
+			(at 158.75 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.75 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.3352 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 166.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "523c6cb8-17c2-42a5-a4ca-2e4758c6676f")
+		)
+		(pin "2"
+			(uuid "1ffadfbe-389a-4bba-9ee3-cf567a3a2aa5")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eef725cb-c603-4f87-a072-9235644c27a8")
+		(property "Reference" "C809"
+			(at 139.7 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 139.7 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.2852 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b97686f9-cbae-42f2-a254-2fc8d8bba87c")
+		)
+		(pin "2"
+			(uuid "255013d3-6a55-47ce-a89b-90a18c1f0f65")
+		)
+		(instances
+			(project "volumepad-stm32-pcb"
+				(path "/218b9003-d196-4882-9b1c-4300d6d4f415/5e19f192-b1cf-44be-9a5b-cd46cce08d30/bccd16dc-1293-48a0-9945-a8b38aeefb4f"
+					(reference "C809")
 					(unit 1)
 				)
 			)
@@ -11195,6 +11317,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42405541"
 			(at 49.53 21.59 0)
 			(hide yes)
 			(show_name no)
