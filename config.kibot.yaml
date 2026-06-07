@@ -1,0 +1,63 @@
+kibot:
+  version: 1
+
+global:
+  output: '%f-%i.%x'
+
+outputs:
+  - name: schematic_pdf
+    comment: Schematic PDF
+    type: pdf_sch_print
+    dir: docs
+
+  - name: gerbers
+    comment: Gerber files
+    type: gerber
+    dir: fabrication/gerbers
+    options:
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      tent_vias: true
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+      subtract_mask_from_silk: true
+    layers:
+      - F.Cu
+      - In1.Cu
+      - In2.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: drill
+    comment: Drill files
+    type: excellon
+    dir: fabrication/drill
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+
+  - name: position
+    comment: Pick and place position files
+    type: position
+    dir: fabrication/position
+    options:
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: true
+      only_smd: false
+
+  - name: bom
+    comment: Basic BOM
+    type: bom
+    dir: fabrication/bom
+    options:
+      format: CSV
